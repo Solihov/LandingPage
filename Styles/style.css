@@ -12,7 +12,6 @@ button {
 }
 header {
     width: 100%;
-    height: 100vh;
 }
 nav {
     width: 100%;
@@ -133,4 +132,16 @@ ul button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* === BODY ===*/
+.partners {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.partners div {
+    width: 75%;
+    display: flex;justify-content: space-between;
 }
