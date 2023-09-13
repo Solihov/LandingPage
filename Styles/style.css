@@ -141,7 +141,84 @@ ul button {
     align-items: center;
     margin: 40px 0;
 }
+.partners h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #9E9E9E;
+    padding-top: 6px;
+}
 .partners div {
-    width: 75%;
+    width: 65%;
     display: flex;justify-content: space-between;
+}
+.partners img {
+    width: 15%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+/* === SCROLLBAR === */
+.scrollingSection {
+    width: 100%;
+    margin: 40px 0;
+}
+.scrollTop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.scrollTop button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    border: 1px solid #B9B9B9;
+    background-color: white;
+    transition: 300ms;
+}
+.scrollTop button:hover {
+    border: 1px solid #35AFF4;
+    background-color: #35AFF4;
+}
+.scrollTop h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+.scrollTop p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #909090;
+}
+.scrollBody {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    margin: 20px 0;
+}
+.card {
+    margin-right: 30px;
+}
+.cardFont {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.cardFont h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cardFont p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+}
+.usd {
+    color: #35AFF4;
+}
+.cost {
+    color: black;
 }
