@@ -9,6 +9,7 @@ button {
 .container {
     width: 90%;
     margin: 0 auto;
+    overflow: hidden;
 }
 header {
     width: 100%;
@@ -123,6 +124,7 @@ ul button {
     width: 30%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .searchIcon {
     width: 48px;
@@ -132,6 +134,7 @@ ul button {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /* === BODY ===*/
 .partners {
@@ -180,6 +183,7 @@ ul button {
 .scrollTop button:hover {
     border: 1px solid #35AFF4;
     background-color: #35AFF4;
+    color: white;
 }
 .scrollTop h1{
     font-size: 36px;
@@ -193,11 +197,11 @@ ul button {
 .scrollBody {
     width: 100%;
     display: flex;
-    overflow-x: scroll;
     margin: 20px 0;
 }
 .card {
     margin-right: 30px;
+    position: relative;
 }
 .cardFont {
     display: flex;
@@ -221,4 +225,114 @@ ul button {
 }
 .cost {
     color: black;
+}
+/* === COMMENTS === */
+.commentSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 800px;
+    overflow-y: hidden;
+}
+.column {
+    width: 355px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column:nth-child(2){
+    margin-top: 40px;
+}
+.commentBox {
+    width: 100%;
+    height: 295px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px 0px #171C1F3B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 25px;
+}
+.commentBox img {
+    width: 116px;
+}
+.commentBox p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #909090;
+}
+.commnentProfile {
+    display: flex;
+    align-items: center;
+}
+.ava {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background-color: #909090;
+    margin-right: 20px;
+}
+/* === FORM, FOOTER === */
+form {
+    width: 100%;
+    height: 224px;
+    background-color: #35AFF4;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    color: white;
+}
+.formFont h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+.formFont p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.apply input {
+    width: 350px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    padding: 0 15px;
+}
+.apply button {
+    height: 40px;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    transition: 300ms;
+    border-radius: 8px;
+}
+.apply button:hover {
+    background-color: white;
+    color: black;
+}
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+footer .container, .ulDiv {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+}
+footer ul p {
+    margin-bottom: 20px;
+}
+footer p {
+    width: 250px;
+    margin-top: 30px;
+}
+footer img {
+    margin-top: 23px;
 }
