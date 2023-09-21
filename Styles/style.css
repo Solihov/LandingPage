@@ -243,14 +243,14 @@ ul button {
     overflow-y: scroll;
 }
 .column {
-    width: 355px;
+    width: 32%;
     height: 950px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .column:nth-child(2){
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .commentBox {
     width: 100%;
